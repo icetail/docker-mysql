@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 24, 2021 at 12:05 AM
+-- Generation Time: Feb 26, 2021 at 02:31 PM
 -- Server version: 10.4.17-MariaDB
 -- PHP Version: 8.0.2
 
@@ -46,6 +46,16 @@ CREATE TABLE `tbl_blocklist` (
 ALTER TABLE `tbl_blocklist`
   ADD PRIMARY KEY (`Id`),
   ADD UNIQUE KEY `ID` (`Id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `tbl_blocklist`
+--
+ALTER TABLE `tbl_blocklist`
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
